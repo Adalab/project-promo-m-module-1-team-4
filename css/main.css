@@ -1,0 +1,49 @@
+*:root {
+  --brand-color: #099d8d;
+  font-family: Open Sans;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 1200px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  background-color: #099d8d;
+  align-items: center;
+}
+
+.item {
+  color: #ffff;
+  font-size: 16px;
+  margin-right: 45px;
+  font-family: Rubik-Medium;
+  font-size: 15px;
+}
+
+.item_special {
+  flex-grow: 1;
+  color: #ffff;
+  margin-left: 45px;
+  font-family: Rubik-Medium;
+  font-size: 16px;
+}
+
+img {
+  width: 1200px;
+  height: 421px;
+}
+
+.lema {
+  box-sizing: content-box;
+  width: 441px;
+  color-text: #000000;
+  background-color: transparent;
+  font-family: OpenSans;
+  font-size: 24px;
+  margin-left: 30px;
+  margin-left: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
