@@ -1,3 +1,3 @@
-#**Equipo COLMENA**
+# **Equipo COLMENA**
 
->Reposiporio Projecto del módulo 1 de Adalab: **Módulo M equipo 4**.
+>Repositorio Projecto del módulo 1 de Adalab: **Módulo M equipo 4**.
