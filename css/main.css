@@ -1,0 +1,44 @@
+/*:root {
+  --seccionsTitleLetra: Rubik-Medium;
+  --sectionsTitleTamaño: 24px;
+  --sectionsTitleColor: #099D8D 100%;
+  --abejaNombreLetra: OpenSans-Regular;
+  --abejaNombreTamaño: 20px;
+  --abejaNombreColor: #000000 %100;
+  --abejaTextoLetra: OpenSans-Regular;
+  --abejaTextoTamaño: 16px;
+  --abejaTextoColor: #54585A 100%;
+  --abejaMarcoFoto:
+}*/
+
+/*
+.sections-title {
+  font-family: var(--seccionsTitleLetra);
+  font-size: var(--sectionsTitleTamaño);
+  color: var(--sectionsTitleColor);
+}
+  */
+
+.abeja-photo {
+  width: 180px;
+  height: 180px;
+  margin: 2px;
+  border: solid 7px rgb(190, 181, 181);
+  box-sizing: content-box;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+/*
+.abeja-name {
+  font-family: var(--abejaNombreLetra);
+  font-size: var(--abejaNombreTamaño);
+  color: var(--abejaNombreColor);
+}
+
+.abeja-text {
+  font-family: var(--abejaTextoLetra);
+  font-size: var(--abejaTextoTamaño);
+  color: var(--abejaTextoColor);
+}
+*/
