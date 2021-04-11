@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*:root {
   --seccionsTitleLetra: Rubik-Medium;
   --sectionsTitleTamaño: 24px;
@@ -58,3 +59,56 @@ h1 {
   padding-bottom: 45px;
 }
 */
+=======
+*:root {
+  --brand-color: #099d8d;
+  font-family: Open Sans;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 1200px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  background-color: #099d8d;
+  align-items: center;
+}
+
+.item {
+  color: #ffff;
+  font-size: 16px;
+  margin-right: 45px;
+  font-family: Rubik-Medium;
+  font-size: 15px;
+}
+
+.item_special {
+  flex-grow: 1;
+  color: #ffff;
+  margin-left: 45px;
+  font-family: Rubik-Medium;
+  font-size: 16px;
+}
+
+.container2 {
+  display: flex;
+}
+img{
+  height: 550px;
+  width: 1200px;
+
+.motto {
+  box-sizing: content-box;
+  border: black 5px;
+  color-text: #000000;
+  background-color: transparent;
+  font-family: OpenSans;
+  font-size: 24px;
+  margin-left: 30px;
+  margin-left: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+>>>>>>> 157271c7843f9eff2ea084494b4ad9cca8a9da43
