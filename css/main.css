@@ -30,14 +30,16 @@
   font-size: 16px;
 }
 
-img {
-  width: 1200px;
-  height: 421px;
+.container2 {
+  display: flex;
 }
+img{
+  height: 550px;
+  width: 1200px;
 
-.lema {
+.motto {
   box-sizing: content-box;
-  width: 441px;
+  border: black 5px;
   color-text: #000000;
   background-color: transparent;
   font-family: OpenSans;
