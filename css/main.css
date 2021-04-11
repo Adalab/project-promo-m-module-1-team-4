@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 /*:root {
+  --sectionsTextPosition: center;
   --seccionsTitleLetra: Rubik-Medium;
   --sectionsTitleTamaño: 24px;
   --sectionsTitleColor: #099D8D 100%;
@@ -8,55 +9,76 @@
   --abejaNombreColor: #000000 %100;
   --abejaTextoLetra: OpenSans-Regular;
   --abejaTextoTamaño: 16px;
-  --abejaTextoColor: #54585A 100%;
-  --abejaMarcoFoto:
+  --abejaTextoColor: #54585A 100%; 
 }*/
 
-/*
+.presentation {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 800px;
+}
+
 .sections-title {
   font-family: var(--seccionsTitleLetra);
   font-size: var(--sectionsTitleTamaño);
   color: var(--sectionsTitleColor);
+  text-align: var(--sectionsTextPosition);
+  /* padding-top:
+  padding-bottom */
 }
-h1 {
-  padding: 30px;
-  margin: auto;
+
+.abeja-container {
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* padding-top:
+  padding-bottom */
 }
-  */
-.presentation: {
-  margin-left: auto;
-  margin-right: auto;
-}
-.abeja-photo {
-  width: 194px;
-  height: 194px;
-  margin: 2px;
+
+.abeja-photo-item {
+  width: 180px;
+  height: 180px;
   border: solid 7px rgb(190, 181, 181);
   box-sizing: content-box;
   overflow: hidden;
   border-radius: 5px;
   border-bottom: 15px;
+ /* padding-top:
+  padding-bottom */
 }
 
-/*
-.abeja-name {
+.abeja-name-item {
   font-family: var(--abejaNombreLetra);
   font-size: var(--abejaNombreTamaño);
   color: var(--abejaNombreColor);
-  text-align: center;
+  text-align: var(--sectionsTextPosition);
+  box-sizing: border-box;
+  padding: 15px;
+  width: 50%;
+  /* padding-top:
+  padding-bottom */
 }
 
-.abeja-text {
+.abeja-text-item {
   font-family: var(--abejaTextoLetra);
   font-size: var(--abejaTextoTamaño);
   color: var(--abejaTextoColor);
-  text-aline: center;
+  text-align: var(--sectionsTextPosition);
+  box-sizing: border-box;
+  padding: 15px;
+  width: 50%;
+  /* padding-top:
+  padding-bottom */
 }
-
-.abeja-rss {
+/*
+.abeja-rss-item {
   color: #099D8D 100%;
   padding-top: 15px;
   padding-bottom: 45px;
+  margin: auto;
 }
 */
 =======
