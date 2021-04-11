@@ -17,16 +17,24 @@
   font-size: var(--sectionsTitleTamaño);
   color: var(--sectionsTitleColor);
 }
+h1 {
+  padding: 30px;
+  margin: auto;
+}
   */
-
+.presentation: {
+  margin-left: auto;
+  margin-right: auto;
+}
 .abeja-photo {
-  width: 180px;
-  height: 180px;
+  width: 194px;
+  height: 194px;
   margin: 2px;
   border: solid 7px rgb(190, 181, 181);
   box-sizing: content-box;
   overflow: hidden;
   border-radius: 5px;
+  border-bottom: 15px;
 }
 
 /*
@@ -34,11 +42,19 @@
   font-family: var(--abejaNombreLetra);
   font-size: var(--abejaNombreTamaño);
   color: var(--abejaNombreColor);
+  text-align: center;
 }
 
 .abeja-text {
   font-family: var(--abejaTextoLetra);
   font-size: var(--abejaTextoTamaño);
   color: var(--abejaTextoColor);
+  text-aline: center;
+}
+
+.abeja-rss {
+  color: #099D8D 100%;
+  padding-top: 15px;
+  padding-bottom: 45px;
 }
 */
