@@ -123,3 +123,10 @@
 .main {
   margin-top: 105px;
 }
+/* Parte Jero */
+.strengths-weaknesseses {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: darkgrey;
+}
