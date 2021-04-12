@@ -53,7 +53,7 @@
   overflow: hidden;
   border-radius: 5px;
   border-bottom: 15px;
- /* padding-top:
+  /* padding-top:
   padding-bottom */
 }
 
@@ -89,18 +89,16 @@
 }
 */
 /*FIN PARTE MARTA*/
-=======
-<<<<<<< HEAD
-*:root {
+======= <<<<<<< HEAD *:root {
   --brand-color: #099d8d;
   font-family: Open Sans;
 }
 =======
 
->>>>>>> 157271c7843f9eff2ea084494b4ad9cca8a9da43
+
 
 /* Parte Julia */
->>>>>>> 863f56b99165593ab24d8367edd82bf7fabfa514
+
 
 .container_name {
   box-sizing: content-box;
@@ -124,9 +122,3 @@
   font-family: sans-serif;
   color: white;
 }
-<<<<<<< HEAD
->>>>>>> 157271c7843f9eff2ea084494b4ad9cca8a9da43
-=======
-
-/* Fin parte Julia */
->>>>>>> 863f56b99165593ab24d8367edd82bf7fabfa514
