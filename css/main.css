@@ -98,7 +98,10 @@
 
 
 /* Parte Julia */
-
+.container_general {
+  display: flex;
+  position: sticky;
+}
 
 .container_name {
   box-sizing: content-box;
@@ -106,6 +109,7 @@
   background-color: #099d8d;
   font-size: 16px;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
