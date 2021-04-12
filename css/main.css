@@ -89,18 +89,14 @@
 }
 */
 /*FIN PARTE MARTA*/
-======= <<<<<<< HEAD *:root {
-  --brand-color: #099d8d;
-  font-family: Open Sans;
-}
-=======
-
-
 
 /* Parte Julia */
 .container_general {
   display: flex;
-  position: sticky;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .container_name {
@@ -125,4 +121,10 @@
 .item {
   font-family: sans-serif;
   color: white;
+}
+
+/* main */
+
+.main {
+  margin-top: 105px;
 }
