@@ -1,121 +1,97 @@
-<<<<<<< HEAD
-/*:root {
-  --seccionsTitleLetra: Rubik-Medium;
-  --sectionsTitleTamaño: 24px;
-  --sectionsTitleColor: #099D8D 100%;
-  --abejaNombreLetra: OpenSans-Regular;
-  --abejaNombreTamaño: 20px;
-  --abejaNombreColor: #000000 %100;
-  --abejaTextoLetra: OpenSans-Regular;
-  --abejaTextoTamaño: 16px;
-  --abejaTextoColor: #54585A 100%;
-  --abejaMarcoFoto:
-}*/
-
-/*
-.sections-title {
-  font-family: var(--seccionsTitleLetra);
-  font-size: var(--sectionsTitleTamaño);
-  color: var(--sectionsTitleColor);
-}
-h1 {
-  padding: 30px;
-  margin: auto;
-}
-  */
-.presentation: {
-  margin-left: auto;
-  margin-right: auto;
-}
-.abeja-photo {
-  width: 194px;
-  height: 194px;
-  margin: 2px;
-  border: solid 7px rgb(190, 181, 181);
-  box-sizing: content-box;
-  overflow: hidden;
-  border-radius: 5px;
-  border-bottom: 15px;
-}
-
-/*
-.abeja-name {
-  font-family: var(--abejaNombreLetra);
-  font-size: var(--abejaNombreTamaño);
-  color: var(--abejaNombreColor);
-  text-align: center;
-}
-
-.abeja-text {
-  font-family: var(--abejaTextoLetra);
-  font-size: var(--abejaTextoTamaño);
-  color: var(--abejaTextoColor);
-  text-aline: center;
-}
-
-.abeja-rss {
-  color: #099D8D 100%;
-  padding-top: 15px;
-  padding-bottom: 45px;
-}
-*/
-=======
-/*Parte Julia/*
+/*PARTE MARTA*/
 
 *:root {
-  --brand-color: #099d8d;
-  font-family: Open Sans;
+  font-family: "Open Sans", sans-serif;
+}
+.presentation {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 800px;
 }
 
-.container {
-  box-sizing: border-box;
-  width: 1200px;
-  height: 60px;
+* {
+  margin: 0;
+}
+
+.section1 {
+  width: 320px;
+}
+
+.title-section1 {
+  color: #099d8d;
+  font-size: 24px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-family: "Rubik Medium";
+}
+
+.abeja-container {
   display: flex;
-  flex-direction: row;
-  margin: 0px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.abeja-foto {
+  width: 180px;
+  height: 180px;
+  border: solid 7px rgb(230, 228, 228);
+  border-radius: 5px;
+  box-sizing: content-box;
+}
+
+.abeja-nombre {
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: "Open Sans Regular";
+  /*text-align: center;*/
+}
+
+.abeja-texto {
+  color: #54585a;
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  /*padding-top: 15px;
+  /*padding-left: 15px;
+  padding-right: 15px;*/
+  text-align: center;
+  font-family: "Open Sans Regular";
+}
+
+.abeja-redes {
+  color: #099d8d;
+  font-size: 16px;
+  padding-top: 15px;
+  padding-left: 98px;
+  padding-right: 98px;
+}
+
+/*FIN PARTE MARTA*/
+
+/* Parte Julia */
+.container_general {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.container_name {
+  box-sizing: content-box;
+  height: 60px;
   background-color: #099d8d;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
-.item {
-  color: #ffff;
-  font-size: 16px;
-  margin-right: 45px;
-  font-family: Rubik-Medium;
-  font-size: 15px;
-}
-
-.item_special {
-  flex-grow: 1;
-  color: #ffff;
-  margin-left: 45px;
-  font-family: Rubik-Medium;
-  font-size: 16px;
-}
-
-.container2 {
-  display: flex;
-}
-img{
-  height: 550px;
-  width: 1200px;
-
-.motto {
-  box-sizing: content-box;
-  border: black 5px;
-  color-text: #000000;
-  background-color: transparent;
-  font-family: OpenSans;
-  font-size: 24px;
-  margin-left: 30px;
-  margin-left: 30px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-/* Fin parte Julia */
-
->>>>>>> 157271c7843f9eff2ea084494b4ad9cca8a9da43
 
 .containerfooter {
   width: 320px;
@@ -125,11 +101,37 @@ img{
 }
 .itemf {
   width: 172px;
-  font size: 14px;
+  font-size: 14px;
   text-align: center;
   color: var (--cool-grey);
 }
 .logoadalab {
   width: 115px;
   height: 45px;
+}
+.container_nav {
+  height: 45px;
+  background-color: #14d9c4;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.item {
+  font-family: sans-serif;
+  color: white;
+}
+
+/* main */
+
+.main {
+  margin-top: 105px;
+}
+/* Parte Jero */
+.strengths-weaknesseses {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: darkgrey;
 }
