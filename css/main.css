@@ -1,6 +1,18 @@
-*:root {
-  font-family: "Open Sans", "Rubik";
+:root {
+  font-family: "Open Sans";
+  width: 320px;
+  font-size: 16px;
+  text-align: center;
 }
+
+.box-wrapper {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+}
+
 /* Parte Julia */
 .container_general {
   display: flex;
@@ -8,6 +20,7 @@
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 2;
 }
 
 .container_name {
@@ -46,7 +59,7 @@
 }
 
 .item {
-  font-family: sans-serif;
+  font-family: "Rubik";
   color: white;
 }
 
@@ -61,23 +74,34 @@
   background-repeat: no-repeat;
   background-image: url("../Images/photo_hive.jpg");
 }
+
 .hero {
   box-sizing: border-box;
   width: 290px;
   height: 80px;
   flex-direction: row;
-  position: relative;
-  top: 100px;
-  background-color: red;
+  position: absolute;
+  top: 200px;
+  background-color: white;
+  opacity: 70%;
+  transform: translate(50%, 50%);
+  text-align: center;
+  font-family: "Rubik";
+  padding-top: 30px;
 }
+
 .Team {
   color: #099d8d;
   font-size: 24px;
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
-  font-family: "Rubik Medium";
+  font-family: "Rubik";
 }
+.TextTeam {
+  line-height: 24px;
+}
+
 /* Fin parte Azahara */
 
 /* Parte Jero */
@@ -87,7 +111,15 @@
   box-sizing: border-box;
   justify-content: space-around;
   background-color: #b8b8b9;
+  line-height: 24px;
 }
+
+.syw {
+  color: #099d8d;
+  font-size: 22px;
+  font-family: "Rubik";
+}
+
 /* Fin parte Jero */
 
 /*PARTE MARTA*/
@@ -167,7 +199,7 @@
 .containerf {
   width: 320px;
   height: 250px;
-  margin: 2225px 0 0;
+  margin: 22px 0 0;
   padding: 30px 74px 45px;
   display: flex;
   flex-direction: column;
