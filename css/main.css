@@ -1,83 +1,86 @@
+/*PARTE MARTA*/
+
+*:root {
+  font-family: "Open Sans", sans-serif;
+}
 .presentation {
   margin: 0 auto;
   padding: 0;
   max-width: 800px;
 }
 
-.sections-title {
-  font-family: var(--seccionsTitleLetra);
-  font-size: var(--sectionsTitleTamaño);
-  color: var(--sectionsTitleColor);
-  text-align: var(--sectionsTextPosition);
-  /* padding-top:
-  padding-bottom */
+* {
+  margin: 0;
+}
+
+.section1 {
+  width: 320px;
+}
+
+.title-section1 {
+  color: #099d8d;
+  font-size: 24px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-family: "Rubik Medium";
 }
 
 .abeja-container {
-  width: 800px;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
-  /* padding-top:
-  padding-bottom */
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-.abeja-photo-item {
+.abeja-foto {
   width: 180px;
   height: 180px;
-  border: solid 7px rgb(190, 181, 181);
-  box-sizing: content-box;
-  overflow: hidden;
+  border: solid 7px rgb(230, 228, 228);
   border-radius: 5px;
-  border-bottom: 15px;
-  /* padding-top:
-  padding-bottom */
+  box-sizing: content-box;
 }
 
-.abeja-name-item {
-  font-family: var(--abejaNombreLetra);
-  font-size: var(--abejaNombreTamaño);
-  color: var(--abejaNombreColor);
-  text-align: var(--sectionsTextPosition);
-  box-sizing: border-box;
-  padding: 15px;
-  width: 50%;
-  /* padding-top:
-  padding-bottom */
-}
-
-.abeja-text-item {
-  font-family: var(--abejaTextoLetra);
-  font-size: var(--abejaTextoTamaño);
-  color: var(--abejaTextoColor);
-  text-align: var(--sectionsTextPosition);
-  box-sizing: border-box;
-  padding: 15px;
-  width: 50%;
-  /* padding-top:
-  padding-bottom */
-}
-/*
-.abeja-rss-item {
-  color: #099D8D 100%;
+.abeja-nombre {
+  font-size: 20px;
   padding-top: 15px;
-  padding-bottom: 45px;
-  margin: auto;
+  padding-bottom: 15px;
+  font-family: "Open Sans Regular";
+  /*text-align: center;*/
 }
-*/
-/*FIN PARTE MARTA*/
-======= <<<<<<< HEAD *:root {
-  --brand-color: #099d8d;
-  font-family: Open Sans;
-}
-=======
 
->>>>>>> 157271c7843f9eff2ea084494b4ad9cca8a9da43
+.abeja-texto {
+  color: #54585a;
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  /*padding-top: 15px;
+  /*padding-left: 15px;
+  padding-right: 15px;*/
+  text-align: center;
+  font-family: "Open Sans Regular";
+}
+
+.abeja-redes {
+  color: #099d8d;
+  font-size: 16px;
+  padding-top: 15px;
+  padding-left: 98px;
+  padding-right: 98px;
+}
+
+/*FIN PARTE MARTA*/
 
 /* Parte Julia */
->>>>>>> 863f56b99165593ab24d8367edd82bf7fabfa514
+.container_general {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
 .container_name {
   box-sizing: content-box;
@@ -85,6 +88,7 @@
   background-color: #099d8d;
   font-size: 16px;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
@@ -101,12 +105,9 @@
   font-family: sans-serif;
   color: white;
 }
-<<<<<<< HEAD
->>>>>>> 157271c7843f9eff2ea084494b4ad9cca8a9da43
-=======
 
 /* Fin parte Julia */
->>>>>>> 863f56b99165593ab24d8367edd82bf7fabfa514
+
 /* Parte Azahara*/
 
 .abejas {
@@ -127,4 +128,17 @@
 }
 .team4 {
   text-align: center;
+}
+
+/* main */
+
+.main {
+  margin-top: 105px;
+}
+/* Parte Jero */
+.strengths-weaknesseses {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: darkgrey;
 }
