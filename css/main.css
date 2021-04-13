@@ -1,106 +1,14 @@
-<<<<<<< HEAD
-
-/*PARTE MARTA*/
-/*:root {
-  --sectionsTextPosition: center;
-  --seccionsTitleLetra: Rubik-Medium;
-  --sectionsTitleTamaño: 24px;
-  --sectionsTitleColor: #099d8d 100%;
-  --abejaNombreLetra: OpenSans-Regular;
-  --abejaNombreTamaño: 20px;
-  --abejaNombreColor: #000000 %100;
-  --abejaTextoLetra: OpenSans-Regular;
-  --abejaTextoTamaño: 16px;
-<<<<<<< HEAD
-  --abejaTextoColor: #54585A 100%; 
-=======
-  --abejaTextoColor: #54585a 100%;
-  --abejaMarcoFoto:
->>>>>>> 863f56b99165593ab24d8367edd82bf7fabfa514
-}*/
-
-.presentation {
-  margin: 0 auto;
-  padding: 0;
-  max-width: 800px;
-}
-
-.sections-title {
-  font-family: var(--seccionsTitleLetra);
-  font-size: var(--sectionsTitleTamaño);
-  color: var(--sectionsTitleColor);
-  text-align: var(--sectionsTextPosition);
-  /* padding-top:
-  padding-bottom */
-}
-
-.abeja-container {
-  width: 800px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  /* padding-top:
-  padding-bottom */
-}
-
-.abeja-photo-item {
-  width: 180px;
-  height: 180px;
-  border: solid 7px rgb(190, 181, 181);
-  box-sizing: content-box;
-  overflow: hidden;
-  border-radius: 5px;
-  border-bottom: 15px;
- /* padding-top:
-  padding-bottom */
-}
-
-.abeja-name-item {
-  font-family: var(--abejaNombreLetra);
-  font-size: var(--abejaNombreTamaño);
-  color: var(--abejaNombreColor);
-  text-align: var(--sectionsTextPosition);
-  box-sizing: border-box;
-  padding: 15px;
-  width: 50%;
-  /* padding-top:
-  padding-bottom */
-}
-
-.abeja-text-item {
-  font-family: var(--abejaTextoLetra);
-  font-size: var(--abejaTextoTamaño);
-  color: var(--abejaTextoColor);
-  text-align: var(--sectionsTextPosition);
-  box-sizing: border-box;
-  padding: 15px;
-  width: 50%;
-  /* padding-top:
-  padding-bottom */
-}
-/*
-.abeja-rss-item {
-  color: #099D8D 100%;
-  padding-top: 15px;
-  padding-bottom: 45px;
-  margin: auto;
-}
-*/
-/*FIN PARTE MARTA*/
-=======
-<<<<<<< HEAD
 *:root {
-  --brand-color: #099d8d;
-  font-family: Open Sans;
+  font-family: "Open Sans", "Rubik";
 }
-=======
-
->>>>>>> 157271c7843f9eff2ea084494b4ad9cca8a9da43
-
 /* Parte Julia */
->>>>>>> 863f56b99165593ab24d8367edd82bf7fabfa514
+.container_general {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
 .container_name {
   box-sizing: content-box;
@@ -108,9 +16,26 @@
   background-color: #099d8d;
   font-size: 16px;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
+.containerfooter {
+  width: 320px;
+  height: 250px;
+  border: solid 1px var (--cool-grey);
+  background-color: #ffff;
+}
+.itemf {
+  width: 172px;
+  font-size: 14px;
+  text-align: center;
+  color: var (--cool-grey);
+}
+.logoadalab {
+  width: 115px;
+  height: 45px;
+}
 .container_nav {
   height: 45px;
   background-color: #14d9c4;
@@ -124,9 +49,169 @@
   font-family: sans-serif;
   color: white;
 }
-<<<<<<< HEAD
->>>>>>> 157271c7843f9eff2ea084494b4ad9cca8a9da43
-=======
 
 /* Fin parte Julia */
->>>>>>> 863f56b99165593ab24d8367edd82bf7fabfa514
+
+/* Parte Azahara */
+.boxmotto {
+  width: 100vw;
+  height: 316px;
+  display: flex;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-image: url("../Images/photo_hive.jpg");
+}
+.hero {
+  box-sizing: border-box;
+  width: 290px;
+  height: 80px;
+  flex-direction: row;
+  position: relative;
+  top: 100px;
+  background-color: red;
+}
+.Team {
+  color: #099d8d;
+  font-size: 24px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-family: "Rubik Medium";
+}
+/* Fin parte Azahara */
+
+/* Parte Jero */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: space-around;
+  background-color: #b8b8b9;
+}
+/* Fin parte Jero */
+
+/*PARTE MARTA*/
+* {
+  margin: 0;
+}
+
+.title-section1 {
+  color: #099d8d;
+  font-size: 24px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-family: "Rubik Medium";
+}
+
+.bee-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.image-container {
+  width: 180px;
+  height: 180px;
+  border: solid 7px rgb(230, 228, 228);
+  border-radius: 5px;
+  box-sizing: content-box;
+  overflow: hidden;
+}
+.bee-photo {
+  width: 100%;
+}
+
+.bee-name {
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: "Open Sans Regular";
+  /*text-align: center;*/
+}
+
+.bee-text {
+  color: #54585a;
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  /*padding-top: 15px;
+  /*padding-left: 15px;
+  padding-right: 15px;*/
+  text-align: center;
+  font-family: "Open Sans Regular";
+}
+
+.bee-socialmedia {
+  color: #099d8d;
+  font-size: 16px;
+  padding-top: 15px;
+  padding-left: 98px;
+  padding-right: 98px;
+  padding-bottom: 45px;
+}
+
+/*FIN PARTE MARTA*/
+
+/* Parte Laura */
+
+/* footer */
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.containerf {
+  width: 320px;
+  height: 250px;
+  margin: 2225px 0 0;
+  padding: 30px 74px 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 1px #b8b8b9;
+  background-color: #ffffff;
+}
+.itemf {
+  width: 172px;
+  height: 20px;
+  margin: 0 0 20px;
+  font-family: OpenSans;
+  font-size: 14px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: center;
+  color: #b8b8b9;
+}
+.itemf2 {
+  width: 114px;
+  height: 60px;
+  margin: 20px 29px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+  opacity: 0.75;
+}
+.linkcolor {
+  color: #54585a;
+  text-decoration: none;
+  line-height: 20px;
+}
+.logo {
+  width: 115.9px;
+  height: 45px;
+  padding: 0px;
+  margin: 30px 28.1px 28px;
+}
