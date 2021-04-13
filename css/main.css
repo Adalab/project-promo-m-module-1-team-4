@@ -123,6 +123,11 @@
   margin: 0;
 }
 
+.section1 {
+  width: 320px;
+  border: solid 1px grey;
+}
+
 .title-section1 {
   color: #099d8d;
   font-size: 24px;
