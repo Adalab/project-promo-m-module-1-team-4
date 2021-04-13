@@ -135,3 +135,62 @@
   justify-content: space-around;
   background-color: darkgrey;
 }
+
+/* Parte Laura */
+
+/* footer */
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+ }
+.containerf {
+  width: 320px;
+  height: 250px;
+  margin: 2225px 0 0;
+  padding: 30px 74px 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border: solid 1px #b8b8b9;
+  background-color: #ffffff;
+}
+.itemf{
+  width: 172px;
+  height: 20px;
+  margin: 0 0 20px;
+  font-family: OpenSans;
+  font-size: 14px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: center;
+  color: #b8b8b9;
+}
+.itemf2 {
+  width: 114px;
+  height: 60px;
+  margin: 20px 29px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+  text-decoration: underline;
+  opacity: 0.75;
+  color: #54585a;
+
+}
+.logo {
+  width: 115.9px;
+  height: 45px;
+  padding: 0px;
+  margin: 30px 28.1px 28px;
+}
