@@ -92,6 +92,23 @@
   align-items: center;
 }
 
+
+.containerfooter {
+  width: 320px;
+  height: 250px;
+  border: solid 1px var (--cool-grey);
+  background-color: #ffff;
+}
+.itemf {
+  width: 172px;
+  font-size: 14px;
+  text-align: center;
+  color: var (--cool-grey);
+}
+.logoadalab {
+  width: 115px;
+  height: 45px;
+}
 .container_nav {
   height: 45px;
   background-color: #14d9c4;
