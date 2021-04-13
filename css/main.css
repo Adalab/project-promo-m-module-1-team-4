@@ -116,3 +116,20 @@ img{
 /* Fin parte Julia */
 
 >>>>>>> 157271c7843f9eff2ea084494b4ad9cca8a9da43
+
+.containerfooter {
+  width: 320px;
+  height: 250px;
+  border: solid 1px var (--cool-grey);
+  background-color: #ffff;
+}
+.itemf {
+  width: 172px;
+  font size: 14px;
+  text-align: center;
+  color: var (--cool-grey);
+}
+.logoadalab {
+  width: 115px;
+  height: 45px;
+}
