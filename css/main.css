@@ -1,88 +1,76 @@
 /*PARTE MARTA*/
-/*:root {
-  --sectionsTextPosition: center;
-  --seccionsTitleLetra: Rubik-Medium;
-  --sectionsTitleTamaño: 24px;
-  --sectionsTitleColor: #099d8d 100%;
-  --abejaNombreLetra: OpenSans-Regular;
-  --abejaNombreTamaño: 20px;
-  --abejaNombreColor: #000000 %100;
-  --abejaTextoLetra: OpenSans-Regular;
-  --abejaTextoTamaño: 16px;
-  --abejaTextoColor: #54585A 100%; 
-  --abejaTextoColor: #54585a 100%;
-  --abejaMarcoFoto:
-}*/
 
+*:root {
+  font-family: "Open Sans", sans-serif;
+}
 .presentation {
   margin: 0 auto;
   padding: 0;
   max-width: 800px;
 }
 
-.sections-title {
-  font-family: var(--seccionsTitleLetra);
-  font-size: var(--sectionsTitleTamaño);
-  color: var(--sectionsTitleColor);
-  text-align: var(--sectionsTextPosition);
-  /* padding-top:
-  padding-bottom */
+* {
+  margin: 0;
+}
+
+.section1 {
+  width: 320px;
+}
+
+.title-section1 {
+  color: #099d8d;
+  font-size: 24px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-family: "Rubik Medium";
 }
 
 .abeja-container {
-  width: 800px;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
-  /* padding-top:
-  padding-bottom */
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-.abeja-photo-item {
+.abeja-foto {
   width: 180px;
   height: 180px;
-  border: solid 7px rgb(190, 181, 181);
-  box-sizing: content-box;
-  overflow: hidden;
+  border: solid 7px rgb(230, 228, 228);
   border-radius: 5px;
-  border-bottom: 15px;
-  /* padding-top:
-  padding-bottom */
+  box-sizing: content-box;
 }
 
-.abeja-name-item {
-  font-family: var(--abejaNombreLetra);
-  font-size: var(--abejaNombreTamaño);
-  color: var(--abejaNombreColor);
-  text-align: var(--sectionsTextPosition);
-  box-sizing: border-box;
-  padding: 15px;
-  width: 50%;
-  /* padding-top:
-  padding-bottom */
-}
-
-.abeja-text-item {
-  font-family: var(--abejaTextoLetra);
-  font-size: var(--abejaTextoTamaño);
-  color: var(--abejaTextoColor);
-  text-align: var(--sectionsTextPosition);
-  box-sizing: border-box;
-  padding: 15px;
-  width: 50%;
-  /* padding-top:
-  padding-bottom */
-}
-/*
-.abeja-rss-item {
-  color: #099D8D 100%;
+.abeja-nombre {
+  font-size: 20px;
   padding-top: 15px;
-  padding-bottom: 45px;
-  margin: auto;
+  padding-bottom: 15px;
+  font-family: "Open Sans Regular";
+  /*text-align: center;*/
 }
-*/
+
+.abeja-texto {
+  color: #54585a;
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  /*padding-top: 15px;
+  /*padding-left: 15px;
+  padding-right: 15px;*/
+  text-align: center;
+  font-family: "Open Sans Regular";
+}
+
+.abeja-redes {
+  color: #099d8d;
+  font-size: 16px;
+  padding-top: 15px;
+  padding-left: 98px;
+  padding-right: 98px;
+}
+
 /*FIN PARTE MARTA*/
 
 /* Parte Julia */
