@@ -1,14 +1,15 @@
 /* Parte Azahara */
-.boxmotto {
+.team_image {
   width: 100vw;
   height: 316px;
   display: flex;
   box-sizing: border-box;
   background-repeat: no-repeat;
-  background-image: url("../Images/photo_hive.jpg");
+  background-image: url(../images/green-color-antenna-white-bee.jpg);
+  background-size: cover;
 }
 
-.hero {
+.team_motto {
   box-sizing: border-box;
   width: 290px;
   height: 80px;
@@ -23,16 +24,22 @@
   padding-top: 30px;
 }
 
-.Team {
-  color: #099d8d;
+.team_title {
+  color: $color-lightgreen;
   font-size: 24px;
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
   font-family: "Rubik";
 }
-.TextTeam {
+.team_text {
   line-height: 24px;
+  text-align: center;
+  font-family: $font-secondary;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 30px;
 }
 
 /* Fin parte Azahara */
