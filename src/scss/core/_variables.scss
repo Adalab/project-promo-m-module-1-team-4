@@ -1,6 +1,24 @@
 // fonts
-$font-main: 'Roboto', sans-serif;
+$font-main: "Rubik Medium";
+$font-secondary: "Open Sans";
+$font-size-16: 16px;
+$font-size-18: 18px;
 
 // colors
-$color-bg: #f3f4f5;
-$color-secondary: #999;
+$color-lightgreen: #14d9c4;
+$color-darkgreen: #099d8d;
+$color-darkgrey: #54585a;
+$color-lightgrey: #b8b8b9;
+$color-background-grey: #f1f1f1;
+$color-black: black;
+$color-background: white;
+
+// container
+
+@mixin containergeneral($direction, $position) {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $position;
+  width: 100%;
+}
