@@ -1,0 +1,38 @@
+/* Parte Azahara */
+.boxmotto {
+  width: 100vw;
+  height: 316px;
+  display: flex;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-image: url("../Images/photo_hive.jpg");
+}
+
+.hero {
+  box-sizing: border-box;
+  width: 290px;
+  height: 80px;
+  flex-direction: row;
+  position: absolute;
+  top: 200px;
+  background-color: white;
+  opacity: 70%;
+  transform: translate(50%, 50%);
+  text-align: center;
+  font-family: "Rubik";
+  padding-top: 30px;
+}
+
+.Team {
+  color: #099d8d;
+  font-size: 24px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-family: "Rubik";
+}
+.TextTeam {
+  line-height: 24px;
+}
+
+/* Fin parte Azahara */

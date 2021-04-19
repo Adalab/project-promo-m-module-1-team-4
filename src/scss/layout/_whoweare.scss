@@ -1,0 +1,71 @@
+/*PARTE MARTA*/
+* {
+  margin: 0;
+}
+
+/*.section1 {
+      width: 320px;
+      border: solid 1px #b8b8b9;
+    }*/
+
+.title-section1 {
+  color: #099d8d;
+  font-size: 24px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-family: "Rubik Medium";
+}
+
+.bee-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.image-container {
+  width: 180px;
+  height: 180px;
+  border: solid 7px #b8b8b9;
+  border-radius: 5px;
+  box-sizing: content-box;
+  overflow: hidden;
+}
+.bee-photo {
+  width: 100%;
+}
+
+.bee-name {
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: "Open Sans Regular";
+  /*text-align: center;*/
+}
+
+.bee-text {
+  color: #54585a;
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  line-height: 24px;
+  /*padding-top: 15px;
+      /*padding-left: 15px;
+      padding-right: 15px;*/
+  text-align: center;
+  font-family: "Open Sans Regular";
+}
+
+.bee-socialmedia {
+  color: #099d8d;
+  font-size: 16px;
+  padding-top: 15px;
+  padding-left: 98px;
+  padding-right: 98px;
+  padding-bottom: 45px;
+}
+
+/*FIN PARTE MARTA*/
