@@ -7,6 +7,7 @@
   transform: rotate(45deg);
   margin: -15px auto;
 }
+
 .wrapper {
   padding: 30px 15px 45px 15px;
   background-color: rgba(184, 184, 185, 0.2);
@@ -27,6 +28,8 @@
 }
 .syw-text {
   color: 54585a;
+  font-size: 16px;
+  font-family: "open sans";
   text-align: center;
   margin: 0 20px 0 20px;
 }
@@ -34,7 +37,12 @@
 @media all and (min-width: 768px) {
   .wrapper {
     flex-direction: row;
+    align-content: space-between;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    padding: 30px 15px 45px 15px;
+  }
+  .sw {
+    width: 50%;
   }
 }

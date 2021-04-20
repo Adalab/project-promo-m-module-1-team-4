@@ -13,8 +13,14 @@ $color-background-grey: #f1f1f1;
 $color-black: black;
 $color-background: white;
 
+<<<<<<< HEAD
 // contenedor mobile
 .containergeneral {
+=======
+// container
+
+@mixin containergeneral {
+>>>>>>> 85fdb913265a0c849838c13b9360d7c45e6d886e
   width: 100%;
   padding: 0 15px;
   @media all and (min-width: 768px) {
