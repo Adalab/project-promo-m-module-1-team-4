@@ -9,11 +9,8 @@
   background-size: cover;
   z-index: 1;
 }
-.motto {
-}
 .team_motto {
   box-sizing: border-box;
-
   height: 80px;
   flex-direction: row;
   position: absolute;
@@ -52,10 +49,4 @@
   margin-bottom: 30px;
 }
 
-@media all and (min-width: 768) {
-.motto 
-display: flex;
-
-
-}
 /* Fin parte Azahara */

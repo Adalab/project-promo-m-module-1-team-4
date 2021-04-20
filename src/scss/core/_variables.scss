@@ -15,11 +15,7 @@ $color-background: white;
 
 // container
 
-@mixin containergeneral($direction, $position) {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: $direction;
-  justify-content: $position;
+@mixin containergeneral {
   width: 100%;
   padding: 0 15px;
 }
