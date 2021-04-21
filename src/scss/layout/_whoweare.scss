@@ -97,6 +97,10 @@
   margin-left: 5px;
 }
 
+.bee-socialmedia-linkR {
+  margin-left: 10px;
+}
+
 @media all and (min-width: 768px) {
   .container-section-marta {
     margin: 0 44px;
@@ -145,11 +149,12 @@
   .description-containerR {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-end;
     flex-basis: 60%;
     margin-right: 31px;
     order: 1;
+    background-color: blue;
   }
 
   .bee-nameL {
@@ -184,17 +189,16 @@
     justify-content: space-between;
     /*align-items: flex-start;*/
     /*padding: 0;*/
-    margin: auto;
   }
   .bee-socialmediaR {
-    width: 124px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
-    /*align-items: flex-start;*/
+    justify-content: flex-end;
+    align-items: flex-start;
     /*padding: 0;*/
-    margin: auto;
+    background-color: red;
   }
 }
 

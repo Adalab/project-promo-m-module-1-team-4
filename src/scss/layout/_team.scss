@@ -1,27 +1,27 @@
 /* Parte Azahara */
 .team_image {
-  width: 100vw;
+  width: 100%;
   height: 316px;
-  display: flex;
   box-sizing: border-box;
   background-repeat: no-repeat;
   background-image: url(../images/green-color-antenna-white-bee.jpg);
   background-size: cover;
-  z-index: -auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 .team_motto {
   box-sizing: border-box;
   height: 80px;
-  flex-direction: row;
-  position: absolute;
-  top: 200px;
-  background-color: white;
-  opacity: 100%;
-  transform: translate(6vh, 10vh);
+  margin-left: 15px;
+  margin-right: 15px;
+  transform: translate(0, 50%);
+  background-color: #f1f1f1;
+  opacity: 0.5;
   text-align: center;
   font-family: "Rubik";
   padding-top: 30px;
-  z-index: 2;
+  z-index: 0;
 }
 
 .motto_text {
@@ -51,7 +51,8 @@
 
 @media all and (min-width: 768px) {
   .team_motto {
-    .back
+    transform: translate(0, 0);
+    width: 441px;
   }
 }
 
