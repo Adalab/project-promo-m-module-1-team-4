@@ -5,7 +5,8 @@
 
 /*MOBILE*/
 .container-section-marta {
-  margin: 0 15px;
+  margin-right: 15px;
+  margin-left: 15px;
   background-color: white;
 }
 
@@ -43,7 +44,7 @@
 }
 
 .description-containerL,
-.image-containerR {
+.description-containerR {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -64,8 +65,6 @@
   color: #54585a;
   font-size: 16px;
   margin-bottom: 15px;
-  /*margin-left: 15px;
-  margin-right: 15px;*/
   line-height: 24px;
   /*padding-top: 15px;
   /*padding-left: 15px;
@@ -76,18 +75,14 @@
 
 .bee-socialmediaL,
 .bee-socialmediaR {
-  color: #099d8d;
   width: 124px;
-  font-size: 16px;
   margin: auto;
   /*padding: 15px 98px 45px;*/
-  text-align: center;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
   box-sizing: border-box;
-  margin: auto;
 }
 .bee-socialmedia-linkL:after,
 .bee-socialmedia-linkR:after {
@@ -95,15 +90,21 @@
   position: absolute;
   margin-top: -5px;
   margin-left: 5px;
+  color: #099d8d;
+  font-size: 16px;
 }
 
-.bee-socialmedia-linkR {
-  margin-left: 10px;
+.linkL,
+.linkR {
+  color: #099d8d;
+  font-size: 16px;
+  text-align: center;
 }
 
 @media all and (min-width: 768px) {
   .container-section-marta {
-    margin: 0 44px;
+    margin-right: 44px;
+    margin-left: 44px;
     background-color: white;
   }
   .title-section {
@@ -113,11 +114,15 @@
   }
 
   .bee-container {
-    margin: 0;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 60px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
+    box-sizing: border-box;
     /*gap: 20px;*/
   }
 
@@ -141,7 +146,7 @@
   .description-containerL {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
     flex-basis: 60%;
     margin-left: 31px;
@@ -149,12 +154,11 @@
   .description-containerR {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-end;
     justify-content: flex-end;
     flex-basis: 60%;
     margin-right: 31px;
     order: 1;
-    background-color: blue;
   }
 
   .bee-nameL {
@@ -187,24 +191,25 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    /*align-items: flex-start;*/
-    /*padding: 0;*/
+    align-items: flex-start;
+    margin-left: 0;
   }
+
   .bee-socialmediaR {
-    width: 100%;
+    width: 124px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: flex-end;
-    align-items: flex-start;
-    /*padding: 0;*/
-    background-color: red;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-right: 0;
   }
 }
 
 @media all and (min-width: 1200px) {
   .container-section-marta {
-    margin: 0 138px;
+    margin-left: 138px;
+    margin-right: 138px;
     background-color: white;
   }
 
@@ -223,77 +228,4 @@
     box-sizing: content-box;
     order: 2;
   }
-
-  .bee-container {
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    /*gap: 20px;*/
-  }
-
-  .description-containerL {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    flex-basis: 60%;
-    margin-left: 45px;
-  }
-  .description-containerR {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    flex-basis: 60%;
-    margin-right: 45px;
-  }
-
-  .bee-nameL {
-    text-align: left;
-    /*margin-top: 41px;*/
-    align-self: flex-start;
-  }
-  .bee-nameR {
-    text-align: right;
-    /*margin-top: 41px;*/
-    align-self: flex-end;
-  }
-
-  .bee-textL {
-    text-align: left;
-    /*padding-top: 15px;*/
-    margin-bottom: 15px;
-    line-height: 24px;
-  }
-  .bee-textR {
-    text-align: right;
-    /*padding-top: 15px;*/
-    margin-bottom: 15px;
-    line-height: 24px;
-  }
-
-  .bee-socialmediaL {
-    width: 124px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    /*align-items: flex-start;*/
-    /*padding: 0;*/
-    margin: auto;
-  }
-  .bee-socialmediaR {
-    width: 124px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    /*align-items: flex-start;*/
-    /*padding: 0;*/
-    margin: auto;
-  }
 }
-
-/*FIN PARTE MARTA*/
