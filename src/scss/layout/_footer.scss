@@ -5,17 +5,15 @@
   align-items: center;
   border-top: solid 1px $color-lightgrey;
   padding: 30px 74px 45px;
-}
-@media all and (min-width: 768px) {
-  .footer_container {
+
+  @media all and (min-width: 768px) {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 2;
     padding: 24px 45px 56px;
   }
-}
-@media all and (min-width: 1200px) {
-  .footer_container {
+
+  @media all and (min-width: 1200px) {
     padding: 30px 138px 50px;
   }
 }
@@ -32,9 +30,8 @@
   letter-spacing: normal;
   text-align: center;
   color: $color-lightgrey;
-}
-@media all and (min-width: 768px) {
-  .footer_title {
+
+  @media all and (min-width: 768px) {
     grid-column: span 1;
     grid-row: 1/2;
     margin-top: 30px;
@@ -45,9 +42,8 @@
 
 .footer_nav {
   height: 60px;
-}
-@media all and (min-width: 768px) {
-  .footer_nav {
+
+  @media all and (min-width: 768px) {
     grid-column: span 1;
     grid-row: 1/3;
   }
@@ -66,9 +62,8 @@
   color: $color-darkgrey;
   display: flex;
   justify-content: center;
-}
-@media all and (min-width: 768px) {
-  .footer_nav--link {
+
+  @media all and (min-width: 768px) {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -80,9 +75,8 @@
   width: 115.9px;
   height: 45px;
   margin: 30px 28.1px 0 28px;
-}
-@media all and (min-width: 768px) {
-  .footer_logo {
+
+  @media all and (min-width: 768px) {
     grid-column: span 1;
     grid-row: 2/3;
     margin-top: 15px;

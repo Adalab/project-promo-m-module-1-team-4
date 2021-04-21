@@ -1,16 +1,15 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script
       src="https://kit.fontawesome.com/d014abe531.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="./assets/css/main.css" >
-     <link
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap"
       rel="stylesheet"
     />
@@ -19,36 +18,81 @@
       rel="stylesheet"
     />
     <title>Contacto</title>
-</head>
-<body>
+  </head>
+  <body>
     <include src="./partials/header.html"></include>
-  
+
     <main class="main">
       <section class="hero-contact"></section>
       <section class="contact">
         <h2 class="contact-title">Contacto</h2>
         <div class="contact-text-box">
-          <p class="contact-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum incidunt debitis veritatis tempore! Error qui, magnam alias odit veniam vero aspernatur suscipit. Ullam aliquam quibusdam inventore officiis neque tempore corporis?</p>
-          <small class="text-small">Todos los campos marcados con <span class="asterisk">*</span> son obligatorios</small>
+          <p class="contact-description">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum
+            incidunt debitis veritatis tempore! Error qui, magnam alias odit
+            veniam vero aspernatur suscipit. Ullam aliquam quibusdam inventore
+            officiis neque tempore corporis?
+          </p>
+          <small class="text-small"
+            >Todos los campos marcados con <span class="asterisk">*</span> son
+            obligatorios</small
+          >
         </div>
-        <form class="contact-form" action="https://formspree.io/f/mbjpqobw" method="POST">
+        <form
+          class="contact-form"
+          action="https://formspree.io/f/mbjpqobw"
+          method="POST"
+        >
           <div class="form-field name">
-            <label class="label" for="name">Nombre completo <span class="asterisk">*</span></label>
-            <input class="form-field-info" id="name" type="text" name="name" placeholder="Nombre..." required />
+            <label class="label" for="name"
+              >Nombre completo <span class="asterisk">*</span></label
+            >
+            <input
+              class="form-field-info"
+              id="name"
+              type="text"
+              name="name"
+              placeholder="Nombre..."
+              required
+            />
           </div>
           <div class="form-field email">
-            <label class="label" for="email">Email <span class="asterisk">*</span></label>
-            <input class="form-field-info" id="email" type="email" name="email" placeholder="nombre.apellidos@mail.com"
-              required />
+            <label class="label" for="email"
+              >Email <span class="asterisk">*</span></label
+            >
+            <input
+              class="form-field-info"
+              id="email"
+              type="email"
+              name="email"
+              placeholder="nombre.apellidos@mail.com"
+              required
+            />
           </div>
           <div class="form-field phone">
             <label class="label" for="telephone">Teléfono</label>
-            <input class="form-field-info" id="telephone" type="tel" name="telephone" placeholder="Ej: 123456789" />
+            <input
+              class="form-field-info"
+              id="telephone"
+              type="tel"
+              name="telephone"
+              placeholder="Ej: 123456789"
+            />
           </div>
           <div class="form-field message">
-            <label class="label" for="message">Mensaje <span class="asterisk">*</span></label>
-            <textarea class="form-field-info" id="message" type="text-area" name="message" placeholder="¿Qué necesitas?"
-              rows="7" columns="7" required></textarea>
+            <label class="label" for="message"
+              >Mensaje <span class="asterisk">*</span></label
+            >
+            <textarea
+              class="form-field-info message"
+              id="message"
+              type="text-area"
+              name="message"
+              placeholder="¿Qué necesitas?"
+              rows="7"
+              columns="7"
+              required
+            ></textarea>
           </div>
           <div class="form-submit">
             <input class="button-submit" type="submit" value="Enviar" />
@@ -58,6 +102,4 @@
     </main>
     <include src="./partials/footer.html"></include>
   </body>
-  
 </html>
-
