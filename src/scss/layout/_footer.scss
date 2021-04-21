@@ -1,23 +1,11 @@
-/* Parte Laura */
 
-/* footer */
 .footer {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-.footer_containergeneral {
-  width: 320px;
-  height: 250px;
-  /* margin: 1240px 0 0;*/
+  border-top: solid 1px $color-lightgrey;
   padding: 30px 74px 45px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border: solid 1px $color-lightgrey;
-  background-color: $color-background;
 }
 .footer_title {
   width: 172px;
@@ -58,22 +46,20 @@
   margin: 30px 28.1px 0 28px;
 }
 @media all and (min-width: 768px) {
-  .footer_containergeneral {
-    width: 100%;
-    height: 170px;
-    padding: 24px 45px 56px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2;
   }
   .footer_title {
-    margin: 6px 182px 15px 0;
+    grid-column: span 1;
+    grid-row: 1/2;
+    margin-top: 30px;
   }
-  .footer_nav {
-    width: 324px;
-    height: 90px;
-    margin: 0 0 0 182px;
+
+  .footer_menu {
+    grid-column: span 1;
+    grid-row: 1/3;
   }
   .footer_nav--link {
     display: flex;
@@ -82,7 +68,8 @@
     line-height: 2.14;
   }
   .footer_logo {
-    margin: 15px 238.1px 4px 0;
+    grid-column: span 1;
+    grid-row: 2/3;
   }
   @media all and (min-width: 1200px) {
     .footer_nav {

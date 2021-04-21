@@ -3,18 +3,18 @@
   flex-direction: column;
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
   z-index: 2;
-  padding: 0 15px;
 }
 .container_name {
-  box-sizing: content-box;
   height: 60px;
   background-color: $color-darkgreen;
   font-size: $font-size-16;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .container_nav {
@@ -24,6 +24,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width: 100%;
 }
 
 .item {
@@ -36,15 +37,17 @@
 
 @media all and (min-width: 768px) {
   .container_header {
-    display: flex;
     flex-direction: row;
     background-color: $color-darkgreen;
-    /*padding: 15px 45px;*/
     height: 60px;
     justify-content: space-between;
-    width: 42ppx;
+    width: 100%;
+    padding: 0 15px;
   }
 
+  .container_name {
+    width: 30%;
+  }
   .container_nav {
     background-color: $color-darkgreen;
     font-size: 15px;
@@ -52,8 +55,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 283px;
-    /*margin: 16px 45px 14px 0;*/
+    width: 320px;
   }
 }
 
@@ -61,17 +63,9 @@
   .container_name {
     width: 768px;
     justify-content: initial;
-    /*padding-top: 15px;
-    padding-bottom: 15px;
-    padding-right: 142px;
-    padding-right: 0;*/
   }
 
   .container_nav {
     width: 376px;
-    /*padding-top: 16px;
-    padding-bottom: 14px;
-    padding-right: 0px;
-    padding-right: 138px;*/
   }
 }
