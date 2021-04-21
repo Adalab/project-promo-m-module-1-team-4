@@ -16,8 +16,9 @@
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
-  font-family: "Rubik Medium";
+  font-family: $font-main;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .bee-container {
@@ -56,7 +57,7 @@
   font-size: 20px;
   padding-top: 15px;
   padding-bottom: 15px;
-  font-family: "Open Sans Regular";
+  font-family: $font-secondary;
   text-align: center;
 }
 
@@ -66,18 +67,14 @@
   font-size: 16px;
   margin-bottom: 15px;
   line-height: 24px;
-  /*padding-top: 15px;
-  /*padding-left: 15px;
-  padding-right: 15px;*/
   text-align: center;
-  font-family: "Open Sans Regular";
+  font-family: $font-secondary;
 }
 
 .bee-socialmediaL,
 .bee-socialmediaR {
   width: 124px;
   margin: auto;
-  /*padding: 15px 98px 45px;*/
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -123,7 +120,6 @@
     flex-wrap: wrap;
     justify-content: center;
     box-sizing: border-box;
-    /*gap: 20px;*/
   }
 
   .image-containerL {
@@ -132,7 +128,6 @@
     border: solid 7px #b8b8b9;
     border-radius: 6px;
     box-sizing: content-box;
-    /*margin-left: 44px;*/
   }
   .image-containerR {
     width: 205px;
@@ -141,7 +136,6 @@
     border-radius: 6px;
     box-sizing: content-box;
     order: 2;
-    /*margin-left: 44px;*/
   }
   .description-containerL {
     display: flex;
@@ -163,24 +157,20 @@
 
   .bee-nameL {
     text-align: left;
-    /*margin-top: 41px;*/
     align-self: flex-start;
   }
   .bee-nameR {
     text-align: right;
-    /*margin-top: 41px;*/
     align-self: flex-end;
   }
 
   .bee-textL {
     text-align: left;
-    /*padding-top: 15px;*/
     margin-bottom: 15px;
     line-height: 24px;
   }
   .bee-textR {
     text-align: right;
-    /*padding-top: 15px;*/
     margin-bottom: 15px;
     line-height: 24px;
   }
