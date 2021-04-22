@@ -97,6 +97,14 @@
   font-size: 16px;
   text-align: center;
 }
+.linkL:hover,
+.linkR:hover {
+  color: white;
+  background: #099d8d;
+  width: 21px;
+  height: 21px;
+  border-radius: 2px;
+}
 
 @media all and (min-width: 768px) {
   .container-section-marta {
