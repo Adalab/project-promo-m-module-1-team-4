@@ -1,0 +1,255 @@
+:root {
+  font-family: "Open Sans";
+  width: 320px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.box-wrapper {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+}
+
+/* Parte Julia */
+.container_general {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.container_name {
+  box-sizing: content-box;
+  height: 60px;
+  background-color: #099d8d;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+Fin parte Julia .containerfooter {
+  width: 320px;
+  height: 250px;
+  border: solid 1px var (--cool-grey);
+  background-color: #ffff;
+}
+.itemf {
+  width: 172px;
+  font-size: 14px;
+  text-align: center;
+  color: var (--cool-grey);
+}
+.logoadalab {
+  width: 115px;
+  height: 45px;
+}
+.container_nav {
+  height: 45px;
+  background-color: #14d9c4;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.item {
+  font-family: "Rubik";
+  color: white;
+}
+
+/* Fin parte Julia */
+
+/* Parte Azahara */
+.boxmotto {
+  width: 100vw;
+  height: 316px;
+  display: flex;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-image: url("../Images/photo_hive.jpg");
+}
+
+.hero {
+  box-sizing: border-box;
+  width: 290px;
+  height: 80px;
+  flex-direction: row;
+  position: absolute;
+  top: 200px;
+  background-color: white;
+  opacity: 70%;
+  transform: translate(50%, 50%);
+  text-align: center;
+  font-family: "Rubik";
+  padding-top: 30px;
+}
+
+.Team {
+  color: #099d8d;
+  font-size: 24px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-family: "Rubik";
+}
+.TextTeam {
+  line-height: 24px;
+}
+
+/* Fin parte Azahara */
+
+/* Parte Jero */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: space-around;
+  background-color: #b8b8b9;
+  line-height: 24px;
+}
+
+.syw {
+  color: #099d8d;
+  font-size: 22px;
+  font-family: "Rubik";
+}
+
+/* Fin parte Jero */
+
+/*PARTE MARTA*/
+* {
+  margin: 0;
+}
+
+/*.section1 {
+  width: 320px;
+  border: solid 1px #b8b8b9;
+}*/
+
+.title-section1 {
+  color: #099d8d;
+  font-size: 24px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-family: "Rubik Medium";
+}
+
+.bee-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.image-container {
+  width: 180px;
+  height: 180px;
+  border: solid 7px #b8b8b9;
+  border-radius: 5px;
+  box-sizing: content-box;
+  overflow: hidden;
+}
+.bee-photo {
+  width: 100%;
+}
+
+.bee-name {
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: "Open Sans Regular";
+  /*text-align: center;*/
+}
+
+.bee-text {
+  color: #54585a;
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  line-height: 24px;
+  /*padding-top: 15px;
+  /*padding-left: 15px;
+  padding-right: 15px;*/
+  text-align: center;
+  font-family: "Open Sans Regular";
+}
+
+.bee-socialmedia {
+  color: #099d8d;
+  font-size: 16px;
+  padding-top: 15px;
+  padding-left: 98px;
+  padding-right: 98px;
+  padding-bottom: 45px;
+}
+
+/*FIN PARTE MARTA*/
+
+/* Parte Laura */
+
+/* footer */
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.containerf {
+  width: 320px;
+  height: 250px;
+  margin: 22px 0 0;
+  padding: 30px 74px 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 1px #b8b8b9;
+  background-color: #ffffff;
+}
+.itemf {
+  width: 172px;
+  height: 20px;
+  margin: 0 0 20px;
+  font-family: OpenSans;
+  font-size: 14px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: center;
+  color: #b8b8b9;
+}
+.itemf2 {
+  width: 114px;
+  height: 60px;
+  margin: 20px 29px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+  opacity: 0.75;
+}
+.linkcolor {
+  color: #54585a;
+  text-decoration: none;
+  line-height: 20px;
+}
+.logo {
+  width: 115.9px;
+  height: 45px;
+  padding: 0px;
+  margin: 30px 28.1px 28px;
+}
