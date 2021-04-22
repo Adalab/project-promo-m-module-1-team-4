@@ -1,0 +1,229 @@
+/*PARTE MARTA*/
+* {
+  margin: 0;
+}
+
+/*MOBILE*/
+.container-section-marta {
+  margin-right: 15px;
+  margin-left: 15px;
+  background-color: white;
+}
+
+.title-section {
+  color: #099d8d;
+  font-size: 24px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-family: $font-main;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.bee-container {
+  margin-bottom: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /*flex-wrap: wrap;*/
+}
+
+.image-containerL,
+.image-containerR {
+  width: 180px;
+  height: 180px;
+  border: solid 7px#b8b8b9;
+  border-radius: 5px;
+  box-sizing: content-box;
+}
+.bee-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.description-containerL,
+.description-containerR {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.bee-nameL,
+.bee-nameR {
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: $font-secondary;
+  text-align: center;
+}
+
+.bee-textL,
+.bee-textR {
+  color: #54585a;
+  font-size: 16px;
+  margin-bottom: 15px;
+  line-height: 24px;
+  text-align: center;
+  font-family: $font-secondary;
+}
+
+.bee-socialmediaL,
+.bee-socialmediaR {
+  width: 124px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.bee-socialmedia-linkL:after,
+.bee-socialmedia-linkR:after {
+  content: ".";
+  position: absolute;
+  margin-top: -5px;
+  margin-left: 5px;
+  color: #099d8d;
+  font-size: 16px;
+}
+
+.linkL,
+.linkR {
+  color: #099d8d;
+  font-size: 16px;
+  text-align: center;
+}
+.linkL:hover,
+.linkR:hover {
+  color: white;
+  background: #099d8d;
+  width: 21px;
+  height: 21px;
+  border-radius: 2px;
+}
+
+@media all and (min-width: 768px) {
+  .container-section-marta {
+    margin-right: 44px;
+    margin-left: 44px;
+    background-color: white;
+  }
+  .title-section {
+    padding: 0;
+    margin-top: 45px;
+    margin-bottom: 41px;
+  }
+
+  .bee-container {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+
+  .image-containerL {
+    width: 205px;
+    height: 205px;
+    border: solid 7px #b8b8b9;
+    border-radius: 6px;
+    box-sizing: content-box;
+  }
+  .image-containerR {
+    width: 205px;
+    height: 205px;
+    border: solid 7px #b8b8b9;
+    border-radius: 6px;
+    box-sizing: content-box;
+    order: 2;
+  }
+  .description-containerL {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-basis: 60%;
+    margin-left: 31px;
+  }
+  .description-containerR {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-basis: 60%;
+    margin-right: 31px;
+    order: 1;
+  }
+
+  .bee-nameL {
+    text-align: left;
+    align-self: flex-start;
+  }
+  .bee-nameR {
+    text-align: right;
+    align-self: flex-end;
+  }
+
+  .bee-textL {
+    text-align: left;
+    margin-bottom: 15px;
+    line-height: 24px;
+  }
+  .bee-textR {
+    text-align: right;
+    margin-bottom: 15px;
+    line-height: 24px;
+  }
+
+  .bee-socialmediaL {
+    width: 124px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 0;
+  }
+
+  .bee-socialmediaR {
+    width: 124px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-right: 0;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .container-section-marta {
+    margin-left: 138px;
+    margin-right: 138px;
+    background-color: white;
+  }
+
+  .image-containerL {
+    width: 278px;
+    height: 278px;
+    border: solid 7px #b8b8b9;
+    border-radius: 7.7px;
+    box-sizing: content-box;
+  }
+  .image-containerR {
+    width: 278px;
+    height: 278px;
+    border: solid 7px #b8b8b9;
+    border-radius: 7.7px;
+    box-sizing: content-box;
+    order: 2;
+  }
+}

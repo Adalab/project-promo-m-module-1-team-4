@@ -1,0 +1,23 @@
+// fonts
+$font-main: "Rubik Medium";
+$font-secondary: "Open Sans";
+$font-size-16: 16px;
+$font-size-18: 18px;
+
+// colors
+$color-lightgreen: #14d9c4;
+$color-darkgreen: #099d8d;
+$color-darkgrey: #54585a;
+$color-lightgrey: #b8b8b9;
+$color-background-grey: #f1f1f1;
+$color-black: black;
+$color-background: white;
+
+// contenedor mobile
+.containergeneral {
+  width: 100%;
+  padding: 0 15px;
+  @media all and (min-width: 768px) {
+    padding: 0 45px;
+  }
+}

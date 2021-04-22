@@ -1,0 +1,112 @@
+/* Parte Azahara */
+.team_image {
+  width: 100%;
+  height: 316px;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-image: url(../images/green-color-antenna-white-bee.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-position: 100% 100%;
+}
+
+@-webkit-keyframes zumbido {
+  0% {
+    -webkit-transform: translate(0px, 0px);
+  }
+  10% {
+    -webkit-transform: translate(10px, 0px);
+  }
+  20% {
+    -webkit-transform: translate(0px, 10px);
+  }
+  30% {
+    -webkit-transform: translate(10px, 0px);
+  }
+  40% {
+    -webkit-transform: translate(0px, 10px);
+  }
+  50% {
+    -webkit-transform: translate(10px, 0px);
+  }
+  60% {
+    -webkit-transform: translate(0px, 0px);
+  }
+  70% {
+    -webkit-transform: translate(10px, 0px);
+  }
+  80% {
+    -webkit-transform: translate(0px, 10px);
+  }
+  90% {
+    -webkit-transform: translate(10px, 0px);
+  }
+  100% {
+    -webkit-transform: translate(0px, 0px);
+  }
+}
+.team_motto {
+  box-sizing: border-box;
+  height: 80px;
+  margin-left: 15px;
+  margin-right: 15px;
+  transform: translate(0, 50%);
+  background-color: white;
+  opacity: 100;
+  text-align: center;
+  font-family: "Rubik";
+  padding-top: 30px;
+  z-index: 0;
+  -webkit-animation: zumbido 0.5s 3;
+}
+
+.motto_text {
+  text-align: center;
+  font-family: $font-secondary;
+  font-size: $font-size-18;
+  font-weight: 600;
+  animation-name: motto_text;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes motto_text {
+  from {
+    opacity: 0;
+    size: 0;
+  }
+  to {
+    opacity: 1;
+    size: 100;
+  }
+}
+.team_title {
+  color: $color-lightgreen;
+  font-size: 24px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-family: "Rubik";
+  margin-top: 30px;
+  font-weight: 800;
+}
+.team_text {
+  line-height: 24px;
+  text-align: center;
+  font-family: $font-secondary;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+  color: gray;
+}
+
+@media all and (min-width: 768px) {
+  .team_motto {
+    transform: translate(0, 0);
+    width: 441px;
+    opacity: 0.8;
+  }
+}

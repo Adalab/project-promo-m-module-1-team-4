@@ -1,0 +1,64 @@
+.contact {
+  margin-top: 130px;
+}
+.contact-title {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: $font-main;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: center;
+  color: $color-darkgreen;
+  text-transform: uppercase;
+}
+.contact-text-box {
+  margin: 0 15px 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: $font-secondary;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: $color-darkgrey;
+  & .text-small {
+    font-size: 12px;
+    margin-top: 30px;
+  }
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 40px 15px 60px 15px;
+  line-height: 2;
+}
+.label {
+  width: 100%;
+}
+
+.form-field-info {
+  width: 100%;
+  height: 45px;
+  border-color: $color-lightgrey;
+}
+/*.message {
+  height: 105px;
+}*/
+.button-submit {
+  width: 100%;
+  height: 45px;
+  background-color: $color-darkgreen;
+}
