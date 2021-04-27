@@ -21,27 +21,73 @@
   font-weight: bold;
 }
 
+@-webkit-keyframes zumbido {
+  0% {
+    -webkit-transform: translate(0px, 0px);
+  }
+  10% {
+    -webkit-transform: translate(10px, 0px);
+  }
+  20% {
+    -webkit-transform: translate(0px, 10px);
+  }
+  30% {
+    -webkit-transform: translate(10px, 0px);
+  }
+  40% {
+    -webkit-transform: translate(0px, 10px);
+  }
+  50% {
+    -webkit-transform: translate(10px, 0px);
+  }
+  60% {
+    -webkit-transform: translate(0px, 0px);
+  }
+  70% {
+    -webkit-transform: translate(10px, 0px);
+  }
+  80% {
+    -webkit-transform: translate(0px, 10px);
+  }
+  90% {
+    -webkit-transform: translate(10px, 0px);
+  }
+  100% {
+    -webkit-transform: translate(0px, 0px);
+  }
+}
 .bee-containerL {
   background-image: url(../images/abejitaa.svg);
   background-repeat: no-repeat;
+  background-size: 30%;
   background-position: right;
   margin-bottom: 45px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+
   /*flex-wrap: wrap;*/
+}
+.bee-containerL:hover {
+  background-image: url(../images/abejitas.svg);
+  -webkit-animation: zumbido 0.12s 2;
 }
 
 .bee-containerR {
   background-image: url(../images/abejita.svg);
   background-repeat: no-repeat;
+  background-size: 30%;
   background-position: left;
   margin-bottom: 45px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+}
+.bee-containerR:hover {
+  background-image: url(../images/abejitaas.svg);
+  -webkit-animation: zumbido 0.12s 2;
 }
 
 .image-containerL,
@@ -133,6 +179,7 @@
   }
 
   .bee-containerL {
+    background-size: 20%;
     width: 100%;
     padding-right: 0;
     padding-left: 0;
@@ -144,6 +191,7 @@
     box-sizing: border-box;
   }
   .bee-containerR {
+    background-size: 20%;
     width: 100%;
     padding-right: 0;
     padding-left: 0;
