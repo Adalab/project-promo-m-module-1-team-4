@@ -123,7 +123,7 @@
     padding-right: 0;
     padding-left: 0;
     padding-bottom: 60px;
-    display: flex;
+    /*display: flex;*/
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -146,16 +146,16 @@
     order: 2;
   }
   .description-containerL {
-    display: flex;
-    flex-direction: column;
+    /*display: flex;
+    flex-direction: column;*/
     align-items: flex-start;
     justify-content: flex-start;
     flex-basis: 60%;
     margin-left: 31px;
   }
   .description-containerR {
-    display: flex;
-    flex-direction: column;
+    /*display: flex;
+    flex-direction: column;*/
     align-items: flex-end;
     justify-content: flex-end;
     flex-basis: 60%;
@@ -185,8 +185,8 @@
 
   .bee-socialmediaL {
     width: 124px;
-    display: flex;
-    flex-direction: row;
+    /*display: flex;
+    flex-direction: row;*/
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: flex-start;
@@ -195,8 +195,8 @@
 
   .bee-socialmediaR {
     width: 124px;
-    display: flex;
-    flex-direction: row;
+    /*display: flex;
+    flex-direction: row;*/
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: flex-end;
