@@ -1,68 +1,313 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/d014abe531.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./assets/css/main.css" >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>COLMENA</title>
+    <link rel="shortcut icon" type="image/ico" href="./assets/images/favicon.ico"/>
   </head>
-
   <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
-      </header>
+      <div class="containergeneral">
+        <header class="container_header">
+          <div class="container_name">
+            <div class="item">Colmena</div>
+          </div>
+          <div class="container_nav">
+            <a class="item" href="">Equipo</a>
+            <a class="item" href="">Quienes somos</a>
+            <a class="item" href="contact.html" target="_blank">Contacto</a>
+          </div>
+        </header>
+      </div>
 
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
-        </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
-        </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
+      <section class="team_image">
+        <div class="team_motto">
+          <h2 class="motto_text">Zumbándole al código</h2>
+        </div>
+      </section>
+      <section>
+        <h2 class="team_title">EQUIPO</h2>
+        <p class="team_text">
+          Somos un equipo multidisciplinar, abarcamos sectores tan dispares como el
+          diseño, gestión de grandes cuentas, docencia, relaciones públicas lo cual
+          nos aporta mucho haciéndonos muy constructivas, siempre positivas y buscando
+          que nuestras debilidades lleguen a ser nuestras fortalezas.
         </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
+      </section>
 
-          </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
+      <div class="triangle"></div>
+      <section class="wrapper">
+          <article class="sw">
+            <h2 class="syw-title">Fortalezas</h2>
+            <p class="syw-text">
+              Colmena surgida de la unión de abjeas polinizadoras provenientes de
+              jardines muy distintos. ¡Deseando construnir nuevas colmenas!
+            </p>
+          </article>
+          <article class="sw">
+            <h2 class="syw-title">Debilidades</h2>
+            <p class="syw-text">
+              La gestión del tiempo nos está jugando malas pasadas sobre todo
+              debido a no priorizar y la falta de conocimientos, lo cual poco a
+              poco iremos adquiriendo y superando y con ello optimizaremos esos
+              tiempos.
+            </p>
+          </article>
+        </section>
+      <section class="container-section-marta">
+        <h1 class="title-section">quiénes somos</h1>
 
-          </li>
-        </ul>
-      </main>
+        <article class="bee-containerL">
+          <div class="image-containerL">
+            <img
+              class="bee-photo"
+              src="./assets/images/MARTA.jpg"
+              alt="Photo Marta"
+            />
+          </div>
+          <div class="description-containerL">
+            <h2 class="bee-nameL">Marta Fraga</h2>
+            <p class="bee-textL">
+              Es una abeja arquitecta, tanto real como virtual. Que curiosea, yendo de
+              flor en flor, en busca de creatividad e interesante miel para probar y
+              nutrirse. Intenta reinventarse y contruirse en cada zumbido que da.
+            </p>
+            <div class="bee-socialmediaL">
+              <div class="bee-socialmedia-linkL">
+                <a href="https://twitter.com/?lang=es" target="_blank"
+                  ><i class="fab fa-twitter linkL"></i
+                ></a>
+              </div>
 
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
+              <div class="bee-socialmedia-linkL">
+                <a
+                  href="https://www.linkedin.com/in/marta-mar%C3%ADa-fraga-rubio-b4577822/"
+                  target="_blank"
+                  ><i class="fab fa-linkedin-in linkL"></i
+                ></a>
+              </div>
 
-        </small>
+              <div class="bee-socialmedia-linkL">
+                <a href="https://github.com/martafragarubio" target="_blank"
+                  ><i class="fab fa-github-alt linkL"></i
+                ></a>
+              </div>
+
+              <div>
+                <a href="https://www.google.com/intl/es/gmail/about/" target="_blank"
+                  ><i class="fas fa-envelope linkL"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="bee-containerR">
+          <div class="image-containerR">
+            <img
+              class="bee-photo"
+              src="./assets/images/4Julia-Mersing-Ortiz.jpg"
+              alt="Photo Julia"
+            />
+          </div>
+          <div class="description-containerR">
+            <h2 class="bee-nameR">Julia Mersing</h2>
+            <p class="bee-textR">
+              Es una abeja inquieta, que no ha parado de volar. Ese eterno vuelo, le
+              ha llevado a conocer, vivir y exprimir mucho jugo de la vida. Pero sobre
+              todo ha aprendido la importancia del zumbido entre las abejas que
+              conviven en una misma colmena.
+            </p>
+            <div class="bee-socialmediaR">
+              <div class="bee-socialmedia-linkR">
+                <a href="https://twitter.com/?lang=es" target="_blank"
+                  ><i class="fab fa-twitter linkR"></i
+                ></a>
+              </div>
+
+              <div class="bee-socialmedia-linkR">
+                <a href="https://www.linkedin.com/feed/" target="_blank"
+                  ><i class="fab fa-linkedin-in linkR"></i
+                ></a>
+              </div>
+
+              <div class="bee-socialmedia-linkR">
+                <a href="https://github.com/" target="_blank"
+                  ><i class="fab fa-github-alt linkR"></i
+                ></a>
+              </div>
+
+              <div>
+                <a href="https://www.google.com/intl/es/gmail/about/" target="_blank"
+                  ><i class="fas fa-envelope linkR"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="bee-containerL">
+          <div class="image-containerL">
+            <img class="bee-photo" src="./assets/images/gema.jpg" alt="Photo Jero" />
+          </div>
+          <div class="description-containerL">
+            <h2 class="bee-nameL">Jerónima López</h2>
+            <p class="bee-textL">
+              Es una abeja obrera muy trabajadora, que está volviendo a degustar el
+              rico néctar de la programación. Siente pasión por ella. Su lema es 'si
+              puedes imaginarlo, ¡puedes programarlo!'.
+            </p>
+            <div class="bee-socialmediaL">
+              <div class="bee-socialmedia-linkL">
+                <a href="https://twitter.com/?lang=es" target="_blank"
+                  ><i class="fab fa-twitter linkL"></i
+                ></a>
+              </div>
+
+              <div class="bee-socialmedia-linkL">
+                <a href="https://www.linkedin.com/feed/" target="_blank"
+                  ><i class="fab fa-linkedin-in linkL"></i
+                ></a>
+              </div>
+
+              <div class="bee-socialmedia-linkL">
+                <a href="https://github.com/" target="_blank"
+                  ><i class="fab fa-github-alt linkL"></i
+                ></a>
+              </div>
+
+              <div>
+                <a href="https://www.google.com/intl/es/gmail/about/" target="_blank"
+                  ><i class="fas fa-envelope linkL"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="bee-containerR">
+          <div class="image-containerR">
+            <img
+              class="bee-photo"
+              src="./assets/images/4Azahara-García-Vileya-.jpg"
+              alt="azahara"
+            />
+          </div>
+          <div class="description-containerR">
+            <h2 class="bee-nameR">Azahara García</h2>
+            <p class="bee-textR">
+              Una abeja incansable, en continua búsqueda de nuevos cielos donde poder
+              volar. Ha olido muchas flores en su camino sin descanso. Y ahora le
+              zumba al código. Toda una aventurera, indagando en nuevos olores que
+              enriquezcan el ambiente de la colmena.
+            </p>
+            <div class="bee-socialmediaR">
+              <div class="bee-socialmedia-linkR">
+                <a href="https://twitter.com/?lang=es" target="_blank"
+                  ><i class="fab fa-twitter linkR"></i
+                ></a>
+              </div>
+
+              <div class="bee-socialmedia-linkR">
+                <a href="https://www.linkedin.com/feed/" target="_blank"
+                  ><i class="fab fa-linkedin-in linkR"></i
+                ></a>
+              </div>
+
+              <div class="bee-socialmedia-linkR">
+                <a href="https://github.com/" target="_blank"
+                  ><i class="fab fa-github-alt linkR"></i
+                ></a>
+              </div>
+
+              <div>
+                <a href="https://www.google.com/intl/es/gmail/about/" target="_blank"
+                  ><i class="fas fa-envelope linkR"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="bee-containerL">
+          <div class="image-containerL">
+            <img class="bee-photo" src="./assets/images/foto laura.jpg"laura" />
+          </div>
+          <div class="description-containerL">
+            <h2 class="bee-nameL">Laura García</h2>
+            <p class="bee-textL">
+              Proveniente de una colmena lejana, esta abejita ha puesto a prueba su
+              capacidad de adaptación y aprendido que la única constante en la vida,
+              es el cambio. Le encanta aprender y siempre busca la mejora continua
+              para aportar en el crecimiento de la colmena.
+            </p>
+            <div class="bee-socialmediaL">
+              <div class="bee-socialmedia-linkL">
+                <a href="https://twitter.com/?lang=es" target="_blank"
+                  ><i class="fab fa-twitter linkL"></i
+                ></a>
+              </div>
+
+              <div class="bee-socialmedia-linkL">
+                <a href="https://www.linkedin.com/feed/" target="_blank"
+                  ><i class="fab fa-linkedin-in linkL"></i
+                ></a>
+              </div>
+
+              <div class="bee-socialmedia-linkL">
+                <a href="https://github.com/" target="_blank"
+                  ><i class="fab fa-github-alt linkL"></i
+                ></a>
+              </div>
+
+              <div>
+                <a href="https://www.google.com/intl/es/gmail/about/" target="_blank"
+                  ><i class="fas fa-envelope linkL"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <footer class="footer_container">
+        <small class="footer_title">Colmena &copy;2018</small>
+        <nav class="footer_nav">
+          <ul>
+            <li>
+              <a class="footer_nav--link" href="">Equipo</a>
+            </li>
+            <li>
+              <a class="footer_nav--link" href="">Quienes Somos</a>
+            </li>
+            <li>
+              <a href="contact.html" class="footer_nav--link" title="ir a contacto"
+                >Contacto</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <img
+          class="footer_logo"
+          src="./assets/images/logo-adalab.png"
+          alt="logo-adalab"
+        />
       </footer>
 
     </div>
-    <script src="./assets/js/main.js"></script>
   </body>
 </html>
