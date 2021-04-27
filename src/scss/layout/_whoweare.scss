@@ -66,8 +66,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-
-  /*flex-wrap: wrap;*/
 }
 .bee-containerL:hover {
   background-image: url(../images/abejitas.svg);
@@ -97,6 +95,10 @@
   border: solid 7px#b8b8b9;
   border-radius: 5px;
   box-sizing: content-box;
+  transition: border-color ease 0.8s;
+  &:hover {
+    border-color: #14d9c4;
+  }
 }
 .bee-photo {
   width: 100%;
@@ -184,7 +186,6 @@
     padding-right: 0;
     padding-left: 0;
     padding-bottom: 60px;
-    /*display: flex;*/
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -196,7 +197,6 @@
     padding-right: 0;
     padding-left: 0;
     padding-bottom: 60px;
-    /*display: flex;*/
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -219,16 +219,12 @@
     order: 2;
   }
   .description-containerL {
-    /*display: flex;
-    flex-direction: column;*/
     align-items: flex-start;
     justify-content: flex-start;
     flex-basis: 60%;
     margin-left: 31px;
   }
   .description-containerR {
-    /*display: flex;
-    flex-direction: column;*/
     align-items: flex-end;
     justify-content: flex-end;
     flex-basis: 60%;
@@ -258,8 +254,6 @@
 
   .bee-socialmediaL {
     width: 124px;
-    /*display: flex;
-    flex-direction: row;*/
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: flex-start;
@@ -268,8 +262,6 @@
 
   .bee-socialmediaR {
     width: 124px;
-    /*display: flex;
-    flex-direction: row;*/
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: flex-end;
