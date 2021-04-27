@@ -21,17 +21,27 @@
   font-weight: bold;
 }
 
-.bee-container {
-  background-image: url(../images/abejita.svg);
+.bee-containerL {
+  background-image: url(../images/abejitaa.svg);
   background-repeat: no-repeat;
-  background-position: left;
-
+  background-position: right;
   margin-bottom: 45px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   /*flex-wrap: wrap;*/
+}
+
+.bee-containerR {
+  background-image: url(../images/abejita.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-bottom: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .image-containerL,
@@ -122,7 +132,18 @@
     margin-bottom: 41px;
   }
 
-  .bee-container {
+  .bee-containerL {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 60px;
+    /*display: flex;*/
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .bee-containerR {
     width: 100%;
     padding-right: 0;
     padding-left: 0;
