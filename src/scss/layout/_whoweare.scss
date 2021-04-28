@@ -21,13 +21,71 @@
   font-weight: bold;
 }
 
-.bee-container {
+@-webkit-keyframes zumbido {
+  0% {
+    -webkit-transform: translate(0px, 0px);
+  }
+  10% {
+    -webkit-transform: translate(10px, 0px);
+  }
+  20% {
+    -webkit-transform: translate(0px, 10px);
+  }
+  30% {
+    -webkit-transform: translate(10px, 0px);
+  }
+  40% {
+    -webkit-transform: translate(0px, 10px);
+  }
+  50% {
+    -webkit-transform: translate(10px, 0px);
+  }
+  60% {
+    -webkit-transform: translate(0px, 0px);
+  }
+  70% {
+    -webkit-transform: translate(10px, 0px);
+  }
+  80% {
+    -webkit-transform: translate(0px, 10px);
+  }
+  90% {
+    -webkit-transform: translate(10px, 0px);
+  }
+  100% {
+    -webkit-transform: translate(0px, 0px);
+  }
+}
+.bee-containerL {
+  background-image: url(../images/abejitaa.svg);
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: right;
   margin-bottom: 45px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  /*flex-wrap: wrap;*/
+}
+.bee-containerL:hover {
+  background-image: url(../images/abejitas.svg);
+  -webkit-animation: zumbido 0.12s 2;
+}
+
+.bee-containerR {
+  background-image: url(../images/abejita.svg);
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: left;
+  margin-bottom: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.bee-containerR:hover {
+  background-image: url(../images/abejitaas.svg);
+  -webkit-animation: zumbido 0.12s 2;
 }
 
 .image-containerL,
@@ -37,6 +95,10 @@
   border: solid 7px#b8b8b9;
   border-radius: 5px;
   box-sizing: content-box;
+  transition: border-color ease 0.8s;
+  &:hover {
+    border-color: #14d9c4;
+  }
 }
 .bee-photo {
   width: 100%;
@@ -118,12 +180,23 @@
     margin-bottom: 41px;
   }
 
-  .bee-container {
+  .bee-containerL {
+    background-size: 20%;
     width: 100%;
     padding-right: 0;
     padding-left: 0;
     padding-bottom: 60px;
-    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .bee-containerR {
+    background-size: 20%;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 60px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -146,16 +219,12 @@
     order: 2;
   }
   .description-containerL {
-    display: flex;
-    flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
     flex-basis: 60%;
     margin-left: 31px;
   }
   .description-containerR {
-    display: flex;
-    flex-direction: column;
     align-items: flex-end;
     justify-content: flex-end;
     flex-basis: 60%;
@@ -185,8 +254,6 @@
 
   .bee-socialmediaL {
     width: 124px;
-    display: flex;
-    flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: flex-start;
@@ -195,8 +262,6 @@
 
   .bee-socialmediaR {
     width: 124px;
-    display: flex;
-    flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: flex-end;
