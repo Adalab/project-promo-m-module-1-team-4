@@ -371,13 +371,59 @@ table {
   text-transform: uppercase;
   font-weight: bold; }
 
-.bee-container {
+@-webkit-keyframes zumbido {
+  0% {
+    -webkit-transform: translate(0px, 0px); }
+  10% {
+    -webkit-transform: translate(10px, 0px); }
+  20% {
+    -webkit-transform: translate(0px, 10px); }
+  30% {
+    -webkit-transform: translate(10px, 0px); }
+  40% {
+    -webkit-transform: translate(0px, 10px); }
+  50% {
+    -webkit-transform: translate(10px, 0px); }
+  60% {
+    -webkit-transform: translate(0px, 0px); }
+  70% {
+    -webkit-transform: translate(10px, 0px); }
+  80% {
+    -webkit-transform: translate(0px, 10px); }
+  90% {
+    -webkit-transform: translate(10px, 0px); }
+  100% {
+    -webkit-transform: translate(0px, 0px); } }
+
+.bee-containerL {
+  background-image: url(../images/abejitaa.svg);
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: right;
   margin-bottom: 45px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
-  /*flex-wrap: wrap;*/ }
+  justify-content: space-around; }
+
+.bee-containerL:hover {
+  background-image: url(../images/abejitas.svg);
+  -webkit-animation: zumbido 0.12s 2; }
+
+.bee-containerR {
+  background-image: url(../images/abejita.svg);
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: left;
+  margin-bottom: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around; }
+
+.bee-containerR:hover {
+  background-image: url(../images/abejitaas.svg);
+  -webkit-animation: zumbido 0.12s 2; }
 
 .image-containerL,
 .image-containerR {
@@ -385,7 +431,11 @@ table {
   height: 180px;
   border: solid 7px #b8b8b9;
   border-radius: 5px;
-  box-sizing: content-box; }
+  box-sizing: content-box;
+  transition: border-color ease 0.8s; }
+  .image-containerL:hover,
+  .image-containerR:hover {
+    border-color: #14d9c4; }
 
 .bee-photo {
   width: 100%;
@@ -459,12 +509,22 @@ table {
     padding: 0;
     margin-top: 45px;
     margin-bottom: 41px; }
-  .bee-container {
+  .bee-containerL {
+    background-size: 20%;
     width: 100%;
     padding-right: 0;
     padding-left: 0;
     padding-bottom: 60px;
-    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box; }
+  .bee-containerR {
+    background-size: 20%;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 60px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -483,15 +543,11 @@ table {
     box-sizing: content-box;
     order: 2; }
   .description-containerL {
-    display: flex;
-    flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
     flex-basis: 60%;
     margin-left: 31px; }
   .description-containerR {
-    display: flex;
-    flex-direction: column;
     align-items: flex-end;
     justify-content: flex-end;
     flex-basis: 60%;
@@ -513,16 +569,12 @@ table {
     line-height: 24px; }
   .bee-socialmediaL {
     width: 124px;
-    display: flex;
-    flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: flex-start;
     margin-left: 0; }
   .bee-socialmediaR {
     width: 124px;
-    display: flex;
-    flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: flex-end;
@@ -626,66 +678,92 @@ table {
   padding-left: 2rem;
   padding-bottom: 20px; }
 
-.contact {
-  margin-top: 130px; }
+.containergeneral_contact {
+  font-family: "Open Sans";
+  color: #54585a;
+  line-height: 24px;
+  margin: 30px 15px 60px 15px; }
+  @media all and (min-width: 768px) {
+    .containergeneral_contact {
+      margin-left: 163px;
+      margin-right: 105px; } }
+  @media all and (min-width: 1200px) {
+    .containergeneral_contact {
+      margin-left: 299px;
+      margin-right: 300px; }
+      .containergeneral_contact .details {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; }
+      .containergeneral_contact .form-field-email {
+        width: 70%;
+        padding-right: 44px; }
+      .containergeneral_contact .form-field-phone {
+        width: 30%; } }
 
-.contact-title {
-  margin-top: 30px;
-  margin-bottom: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: "Rubik Medium";
-  font-size: 24px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.88;
-  letter-spacing: normal;
-  text-align: center;
-  color: #099d8d;
-  text-transform: uppercase; }
+.text-small {
+  font-size: 14px; }
 
-.contact-text-box {
-  margin: 0 15px 0 15px;
+.hero_contact {
+  width: 100%;
+  height: 316px;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-image: url(../images/green-color-antenna-white-bee.jpg);
+  background-size: cover;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  font-family: "Open Sans";
-  font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
+  justify-content: flex-end;
+  background-position: 100% 100%; }
+
+.contact_title {
+  color: #14d9c4;
+  font-size: 24px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   text-align: center;
-  color: #54585a; }
-  .contact-text-box .text-small {
-    font-size: 12px;
-    margin-top: 30px; }
+  margin-top: 30px;
+  font-weight: 800; }
+
+.contact_text {
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 30px; }
+
+.asterisk {
+  color: #14d9c4; }
 
 .contact-form {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  margin: 40px 15px 60px 15px;
-  line-height: 2; }
-
-.label {
+  line-height: 10px;
   width: 100%; }
 
-.form-field-info {
-  width: 100%;
-  height: 45px;
-  border-color: #b8b8b9; }
+.label {
+  display: block;
+  margin: 10px 0 10px 0; }
 
-/*.message {
-  height: 105px;
-}*/
+.input {
+  width: 100%; }
+
 .button-submit {
-  width: 100%;
+  background-color: #099d8d;
+  color: white;
+  width: 290px;
   height: 45px;
-  background-color: #099d8d; }
+  border: none;
+  margin-top: 30px;
+  margin-bottom: 60px; }
+  @media all and (min-width: 768px) {
+    .button-submit {
+      width: 206px; }
+      .button-submit .button-submit {
+        align-items: flex-end;
+        width: 100%; } }
+  @media all and (min-width: 1200px) {
+    .button-submit {
+      width: 278px; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -19,7 +19,7 @@
     />
     <title>Contacto</title>
   </head>
-  <body>
+  <body class="contact">
     <div class="containergeneral">
       <header class="container_header">
         <div class="container_name">
@@ -33,22 +33,17 @@
       </header>
     </div>
 
-
-    <main class="main">
-      <section class="hero-contact"></section>
-      <section class="contact">
-        <h2 class="contact-title">Contacto</h2>
-        <div class="contact-text-box">
+  <div class="hero_contact"></div>
+      <section class="containergeneral_contact">
+        <h2 class="contact_title">Contacto</h2>
+        <div class="contact_text">
           <p class="contact-description">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum
-            incidunt debitis veritatis tempore! Error qui, magnam alias odit
-            veniam vero aspernatur suscipit. Ullam aliquam quibusdam inventore
-            officiis neque tempore corporis?
+            Si quieres contactar con estas abejas, rellena este formulario y te contestaremos volando.
           </p>
-          <small class="text-small"
-            >Todos los campos marcados con <span class="asterisk">*</span> son
-            obligatorios</small
-          >
+          <br>
+            <small class="text-small"> Todos los campos marcados con <span class="asterisk">*</span> son
+              obligatorios.</small>
+          </br>
         </div>
         <form
           class="contact-form"
@@ -60,7 +55,7 @@
               >Nombre completo <span class="asterisk">*</span></label
             >
             <input
-              class="form-field-info"
+              class="input"
               id="name"
               type="text"
               name="name"
@@ -68,35 +63,37 @@
               required
             />
           </div>
-          <div class="form-field email">
-            <label class="label" for="email"
-              >Email <span class="asterisk">*</span></label
-            >
-            <input
-              class="form-field-info"
-              id="email"
-              type="email"
-              name="email"
-              placeholder="nombre.apellidos@mail.com"
-              required
-            />
+          <div class="details">
+            <div class="form-field-email">
+              <label class="label" for="email"
+                >Email <span class="asterisk">*</span></label
+              >
+              <input
+                class="input"
+                id="email"
+                type="email"
+                name="email"
+                placeholder="nombre.apellidos@mail.com"
+                required
+              />
+            </div>
+            <div class="form-field-phone">
+              <label class="label" for="telephone">Teléfono</label>
+              <input
+                class="input"
+                id="telephone"
+                type="tel"
+                name="telephone"
+                placeholder="Ej: 123456789"
+              />
+            </div>
           </div>
-          <div class="form-field phone">
-            <label class="label" for="telephone">Teléfono</label>
-            <input
-              class="form-field-info"
-              id="telephone"
-              type="tel"
-              name="telephone"
-              placeholder="Ej: 123456789"
-            />
-          </div>
-          <div class="form-field message">
+          <div class="input">
             <label class="label" for="message"
               >Mensaje <span class="asterisk">*</span></label
             >
             <textarea
-              class="form-field-info message"
+              class="input"
               id="message"
               type="text-area"
               name="message"
