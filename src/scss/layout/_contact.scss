@@ -1,0 +1,106 @@
+.containergeneral_contact {
+  font-family: $font-secondary;
+  color: $color-darkgrey;
+  line-height: 24px;
+  margin: 30px 15px 60px 15px;
+  @media all and (min-width: 768px) {
+    margin-left: 163px;
+    margin-right: 105px;
+  }
+  @media all and (min-width: 1200px) {
+    margin-left: 299px;
+    margin-right: 300px;
+
+    .details {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .form-field-email {
+      width: 70%;
+      padding-right: 44px;
+    }
+
+    .form-field-phone {
+      width: 30%;
+    }
+  }
+}
+
+.text-small {
+  font-size: 14px;
+}
+
+.hero_contact {
+  width: 100%;
+  height: 316px;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-image: url(../images/green-color-antenna-white-bee.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-position: 100% 100%;
+}
+
+.contact_title {
+  color: $color-lightgreen;
+  font-size: 24px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 800;
+}
+.contact_text {
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+}
+
+.asterisk {
+  color: $color-lightgreen;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  line-height: 10px;
+  width: 100%;
+}
+
+.label {
+  display: block;
+  margin: 10px 0 10px 0;
+}
+
+.input {
+  width: 100%;
+}
+
+.button-submit {
+  background-color: $color-darkgreen;
+  color: $color-background;
+  width: 290px;
+  height: 45px;
+  border: none;
+  margin-top: 30px;
+  margin-bottom: 60px;
+
+  @media all and (min-width: 768px) {
+    width: 206px;
+
+    .button-submit {
+      align-items: flex-end;
+      width: 100%;
+    }
+  }
+
+  @media all and (min-width: 1200px) {
+    width: 278px;
+  }
+}
