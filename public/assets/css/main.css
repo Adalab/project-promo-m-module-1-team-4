@@ -749,6 +749,7 @@ table {
   width: 100%; }
 
 .button-submit {
+  border-radius: 5px;
   background-color: #099d8d;
   color: white;
   width: 290px;
