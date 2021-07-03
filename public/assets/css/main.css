@@ -758,12 +758,11 @@ table {
   margin-bottom: 60px; }
   @media all and (min-width: 768px) {
     .button-submit {
-      width: 206px; }
-      .button-submit .button-submit {
-        align-items: flex-end;
-        width: 100%; } }
+      width: 206px;
+      margin-left: 60%; } }
   @media all and (min-width: 1200px) {
     .button-submit {
-      width: 278px; } }
+      width: 278px;
+      margin-right: 300px; } }
 
 /*# sourceMappingURL=main.css.map */
